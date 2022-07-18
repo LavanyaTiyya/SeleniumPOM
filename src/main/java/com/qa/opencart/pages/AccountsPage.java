@@ -16,7 +16,7 @@ public class AccountsPage {
 	private By sectionHeaders=By.cssSelector("div#content h2");
 	private By search= By.name("search");
 	private By searchIcon=By.xpath("//span[@class='input-group-btn']");
-	private By lavanya =By.className("Lavanya");
+	
 	
 	//2.page Constructor
 	public AccountsPage(WebDriver driver) {

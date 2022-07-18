@@ -1,7 +1,13 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.WebDriver;
+
+import com.qa.opencart.util.ElementUtil;
+
 public class AccPage {
 	
-
-System.out.println("user name is : ");
+	public AccPage(WebDriver driver) {
+		this.driver=driver;
+		eleUtil=new ElementUtil(driver);
+	}
 }
